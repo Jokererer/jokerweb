@@ -1,0 +1,94 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color:snow;
+}
+.wrapper{
+    width:80%;
+    height:1000px;
+    background-color: antiquewhite;
+    margin:0px auto;
+}
+.header{
+    widht:100%;
+    height:90px;
+    background-color: snow;
+    margin:0px auto;
+}
+.header_nav{
+    padding-bottom:30px;
+    padding-top:30px;
+    width:100%;
+    height:30px;
+    position:relative;
+}
+.header_title{
+    float:left;
+    font-family:Arial Harrington sans-serif;
+    font-size:30px;
+    color:burlywood;
+}
+.header_img img{
+    border-radius:30px;
+    width:26px;
+    height:26px;
+    display:inline;
+    box-shadow:0 1px 1px rgba(0, 0, 0, 0.2);
+    float:right;
+}
+.header_spotlight form input{
+    margin-right:40px;
+    width:100px;
+    height:26px;
+    float:right;
+    position:relative;
+}
+form input{
+    border-radius:30px;
+    height:26px;
+}
+ul{
+    float:left;
+    margin-left:40px;
+    list-style-type:none;
+    padding-top:6px;
+    padding-bottom:6px;
+}
+li{
+    margin-left:40px;
+    display:inline;
+}
+a:link, a:visited{
+    font-weight:bold;
+    color:darkgray;
+    text-align:center;
+    padding:6px;
+    text-decoration:none;
+}
+a:hover, a:active{
+    color:dimgray;
+}
+.body{
+    padding:30px;
+    height:auto;
+    weight:auto;
+}
+.body_title h3{
+    font-size:30px;
+    font-family: "Arial Harrington";
+    color:#333333;
+}
+.body_title p{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.footer{
+    padding-top:20px;
+    padding-bottom:20px;
+    color:gray;
+    text-align:center;
+    font-size:10px;
+
+}

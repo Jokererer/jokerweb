@@ -1,0 +1,177 @@
+/* 控制所有区域*/
+* {
+    box-sizing: border-box;
+    /* 适应指定区域*/
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* 控制body的字体和背景颜色 */
+body {
+    font-family: Arial;
+    background: black;
+}
+
+
+
+/* 头部 */
+.theheader {
+    text-align: center;
+    background: black;
+}
+
+/* 头部图片设置 */
+.header_img {
+    padding: 0;
+}
+
+/* 导航外控制区 */
+.thenav {
+    overflow: hidden;
+    background-color: #ab9bd8;
+}
+
+/* 导航条 */
+nav {
+    margin-left: 150px;
+}
+
+/* 用于表单的标签 */
+label {
+    color: white;
+}
+
+/* 输入框设置 */
+.input {
+    float: right;
+    margin-right: 100px;
+    margin-top: 12px;
+}
+
+/* 导航条链接 */
+.thenav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+
+/* 段落设置 */
+p {
+
+    line-height: 1.5em;
+}
+
+/* 链接设置 */
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* 链接颜色修改 */
+.thenav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+a:hover {
+    color: black;
+    background-color: #ab9bd8;
+}
+
+/* 左侧栏目设置 */
+.left-content {
+    float: left;
+    width: 75%;
+}
+
+.left-content .card p {
+    text-indent: 2em;
+}
+
+/* 右侧栏目设置 */
+.right-content {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+    background-color: black;
+
+
+}
+
+
+
+/* 图像部分 */
+img {
+
+    width: 100%;
+    padding: 20px;
+}
+
+/* 文章卡片效果 */
+.card {
+    background-color: #ab9bd8;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.card img {
+    height: 400px;
+    width: 600px;
+}
+
+/* 列后面清除浮动 */
+.thecontent:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* 底部 */
+.footer {
+    padding: 10px;
+    background: #ab9bd8;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* 对页脚中的图片设置 */
+.mark {
+    width: 80px;
+    height: 80px;
+    border: medium none;
+    box-shadow: none;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+/* 装饰区设置 */
+section {
+    width: 88px;
+    margin-bottom: 5px;
+    height: 30px;
+    margin-top: 5px;
+    margin: auto;
+}
+
+/* 响应式布局 - 屏幕尺寸小于 800px 时，两列布局改为上下布局 */
+@media screen and (max-width: 800px) {
+
+    .left-content,
+    .right-content {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* 响应式布局 -屏幕尺寸小于 400px 时，导航等布局改为上下布局 */
+@media screen and (max-width: 400px) {
+    .thenav a {
+        float: none;
+        width: 100%;
+    }
+}

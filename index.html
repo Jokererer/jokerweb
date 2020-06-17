@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!-- 页眉区，就是展示了一个具有个性风格的动漫手势动态图 -->
+    <div class="theheader">
+        <img class="header_img" src="img/手势.gif" alt="" width="100%" height="500px">
+    </div>
+    <!-- 页眉区结束 -->
+    <!-- 导航控制区 存放导航内容和输入内容 内部又分为nav区和input区-->
+    <div class="thenav">
+        <!--  导航区-->
+        <nav>
+            <a href="首页（第一个从这个网页开始）.html" target="_blank">首页</a>
+            <a href="个人.html" target="_blank">个人</a>
+
+            <a href="资源.html" target="_blank">资源</a>
+
+            <a href="意见与建议.html" target="_blank">意见与建议</a>
+            <a href="联系我们.html" target="_blank">联系</a>
+        </nav>
+        <!-- 导航区结束 -->
+        <!-- input区 -->
+        <div class="input">
+            <form action="">
+                <label for="what">请输入搜索：</label>
+                <input type="text" id="what" name="what">
+            </form>
+        </div>
+        <!-- input区结束 -->
+    </div>
+    <!-- 导航控制区结束 -->
+
+    <!-- 内容区域，里面又分为左栏内容区和右栏控制区 -->
+    <div class="thecontent">
+        <!-- 左栏控制区 ，包含多个卡片区域 -->
+        <div class="left-content">
+            <!-- 卡片区域 -->
+            <div class="card">
+                <!-- 装饰区 -->
+                <section>
+                    <img src="img/640.gif" alt="动态" data-type="gif" data-w="217" data-width="100%"
+                        style="display: block; width: 100% !important; height: auto !important; visibility: visible !important;"
+                        _width="100%" data-order="0" data-fail="0">
+                </section>
+                <!-- 装饰区结束 -->
+                <h2><a
+                        href="https://mp.weixin.qq.com/s?src=11&timestamp=1591664052&ver=2389&signature=ZsevwVKAxUwto7UAE4w*bHx7p6QCLkY*JWCbz3oWx210ESwPmB9ATGxtAQNOeL2SIIRkPQdS*MCktzMeBz-46qT3T3FWwokj6CGuEqU*9wirhS9dG7yDBRq-XhoVh0Q0&new=1">前端学习路线</a>
+                </h2>
+                <!-- 图片区 -->
+                <img src="img/前端.png" alt="前端学习路线">
+                <!-- 图片结束 -->
+                <!-- 装饰区 -->
+                <section>
+                    <img src="img/640.gif" alt="动态" data-type="gif" data-w="217" data-width="100%"
+                        style="display: block; width: 100% !important; height: auto !important; visibility: visible !important;"
+                        _width="100%" data-order="0" data-fail="0">
+                </section>
+                <!-- 装饰区结束 -->
+                <h3>学习资源</h3>
+                <br>
+
+                <p>
+                    1、css部分：强烈推荐看张鑫旭的《css世界》学习，这本书里对css的原理十分深入，文本描述生动有趣，小白也看的懂，看完这本书后会打开你对css新的认知，各类css复杂概念也能够理解了。
+                </p>
+                <p>
+                    2、 js部分：前面学习的那些实际上只是js的一些基础，进一步学习建议看书。前端必看的书单目录按顺序如下：
+                    《javascript语言精粹》先从这本书开始看起，帮助你快速区分js语言中的精华和糟粕，抓重点学习
+                    《JavaScript高级程序设计》，一般叫红皮书，深入讲解了js里各类组成部分，长这样
+                    《你不知道的JavaScript》，这书分上中下三本，深入理解js语言内部的机制，打扎实原生js基础，下面我就放一本的封面图片（另两本封面几乎一致就不放了，图大）
+
+
+
+                </p>
+                <p>
+                    3、vue ：vue的学习推荐看vue官方文档，建议将其中的示例都自己练习一遍，加深记忆和理解。
+                    node.js：node.js让js能在服务器端运行，node官方文档有点晦涩难理解，推荐看《了不起的node.js》书入门。后续深入学习node推荐《深入浅出Node.js》
+                    react、reactnative、angular建议直接看官方文档学习，深入学习使用的书籍去图灵社区搜一下，口碑好评度高的几本都很不错，这里我就不放出来了。
+
+
+
+                </p>
+
+
+
+            </div>
+            <!-- 卡片区域结束 -->
+            <!-- 卡片区 -->
+            <div class="card">
+                <!-- 装饰区 -->
+                <section>
+                    <img src="img/640.gif" alt="动态" data-type="gif" data-w="217" data-width="100%"
+                        style="display: block; width: 100% !important; height: auto !important; visibility: visible !important;"
+                        _width="100%" data-order="0" data-fail="0">
+                </section>
+                <!-- 装饰区结束 -->
+                <h2>Python学习路线</h2>
+                <!-- 图片区 -->
+                <img src="img/python.png" alt="">
+                <!-- 图片区结束 -->
+                <p>
+                    相比较C、Java这种大型语言，Python轻便、灵巧而且入门比较快。对于金融从业者来说，Python的需求主要在数据分析领域的运用。对于一些量化投资的从业者来说，可能还需要到一些回测平台以及交易系统的搭建。但是由于这类平台时效性高，因此很多还是以C语言这种适合开发那些追求运行速度、充分发挥硬件性能的程序。Python则主要用来编写策略，例如一些量化策略的编写以及数据分析。
+                </p>
+                <p>
+                    除此以外，Python还可以编写Web框架，就是自己建个网站。例如YouTube、Instagram，还有国内的豆瓣。很多大公司，包括Google、Yahoo等，甚至NASA（美国航空航天局）都大量地使用Python。
+                </p>
+
+                <h2>学习方法</h2>
+                <p>在开始阶段，推荐<a href="https://www.liaoxuefeng.com/"
+                        target="_blank">廖雪峰的Python教程</a>。简单易懂，而且阅读量也不大，基本2-3天就可以看完一遍，然后对于不懂的可以反复阅读，然后自己上手项目，查漏补缺，建立对Python编程的认知。
+                </p>
+                <p>
+                    在有一定基础后，可以尝试去看书。市场上很多关于Python的书，这些书对于没有基础的同学来说在入门阶段并不推荐，但是随着学习的深入，形成自己对于编程的基本认知以后，是需要通过书本来提升自己的境界。
+                </p>
+
+
+
+            </div>
+            <!-- 卡片区结束 -->
+        </div>
+        <!-- 左栏内容区结束 -->
+        <!-- 右栏内容区 -->
+        <div class="right-content">
+            <!-- 卡片区 -->
+            <div class="card">
+
+                <h2>好奇世界——一些好用的网站</h2>
+
+                <p>
+                    <a href="http://www.fontawesome.com.cn/faicons/">The Icons图标库</a>
+                    <br>
+                    <a href="https://www.jiumodiary.com/">鸠摩文档搜索</a>
+                    <br>
+                    <a href="http://www.officeplus.cn/Template/Home.shtml">微软官方模板网站</a>
+                    <br>
+                    <a href="https://uzer.me/z/apps">UZER.ME你的超级云端应用空间</a>
+                </p>
+            </div>
+            <!-- 卡片区结束 -->
+            <!--卡片区 -->
+            <div class="card">
+                <h3>热门文章</h3>
+                <p>
+                    <a href="https://www.sohu.com/a/377102989_623786">1.2020年十大最热门技术趋势</a>
+                    <br>
+                    <a href="http://www.woshipm.com/ai/3983358.html">2.从“深度伪造”到“深度合成”：AI为啥需要一次“正名”？</a>
+                    <br>
+
+                    <a href="https://blog.csdn.net/weixin_43308332/article/details/93382141">3.基于卷积神经网络的假人脸识别</a>
+                    <a href="https://www.cnblogs.com/Wang1107/p/11694725.html" class="">4.Python数据分析与爬虫</a>
+                </p>
+            </div>
+            <!-- 卡片区结束 -->
+            <!-- 卡片区 -->
+            <div class="card">
+                <h3>评论</h3>
+                <!-- 评论区 -->
+                <label for="answer">请输入你的想法</label>
+                <textarea class="textarea  empty" rows="10" cols="40"></textarea>
+                <!-- 评论区结束 -->
+            </div>
+            <!-- 卡片区结束 -->
+        </div>
+    </div>
+    <!-- 右栏区域结束 -->
+    <!-- 页脚区 -->
+    <div class="footer">
+        <!-- 装饰区 -->
+        <section style="float: left;">
+            <img src="img/640.gif" alt="动态" data-type="gif" data-w="217" data-width="100%"
+                style="display: block; width: 100% !important; float: left;">
+        </section>
+        <!-- 装饰区结束 -->
+
+        <span style="font-size: 20px;font-weight: bold;">关注我：</span>
+        <img class="mark" src="img/微博.png" alt="">
+        <img class="mark" src="img/wechat.png" alt="">
+        <section style="float: right;">
+            <img src="img/640.gif" alt="动态" data-type="gif" data-w="217" data-width="100%"
+                style="display: block; width: 100% !important; float: left;">
+        </section>
+        <p>© Tam 2020 | All Right Reserved</p>
+        <!-- 页脚区结束 -->
+
+
+
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>

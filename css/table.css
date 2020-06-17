@@ -1,0 +1,60 @@
+.right{
+    border-radius: 50px;
+    
+}
+body{
+    text-align: center;
+}
+
+.container{
+    border-radius: 50px;
+}
+
+.danceDetail_title {
+    text-align: center;
+    font-family: "Arial";
+    font-size: 60px;
+    font-weight: normal;
+    color: #000051;
+}
+
+.danceDetail_line {
+    width: 50px;
+    height: 4px;
+    margin: 15px auto 0;
+    background-color: #ffe109;
+}
+
+.danceDetail_video {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.danceDetail_name {
+    margin: 20px 0;
+}
+
+.danceDetail_nameWHat {
+    font-family: "Arial";
+    font-size: 46px;
+    color: #000051;
+}
+.danceDetail_nameTips {
+    margin-top: -10px;
+    font-size: 34px;
+    color: #000051;
+}
+
+.danceDetail_nameTips .en {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ffe109;
+    font-family: "Arial";
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
